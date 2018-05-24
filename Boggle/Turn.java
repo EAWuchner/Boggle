@@ -19,8 +19,9 @@ public class Turn
                 let players add words in an array list
         check to see if any words are duplicates between lists, delete them from all lists
         check to see if any words are < 3 letters, delete them
-        score lists of words
-        PlayerScores += score of words
+        make scores
+        PlayerScore += scores
+        return player[]
         */
     }
 }
