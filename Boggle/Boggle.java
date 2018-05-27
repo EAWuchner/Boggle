@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Boggle here.
+ * The board for a game of Boggle
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Katherine Chong, Caitlin Hruby, and Emily Wuchner
+ * @version 5/26/2018
  */
 import java.util.Random;
 import java.util.ArrayList;

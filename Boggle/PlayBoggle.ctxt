@@ -2,5 +2,5 @@
 comment0.target=PlayBoggle
 comment1.params=
 comment1.target=PlayBoggle()
-comment1.text=\r\n\ A\ round\ of\ Boggle\ is\ played\r\n\ @param\ \ \ players\ \ \ \ \ an\ array\ filled\ with\ Boggle\ players\r\n
+comment1.text=\r\n\ A\ game\ of\ Boggle\ is\ played\r\n
 numComments=2

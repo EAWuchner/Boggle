@@ -1,32 +1,43 @@
 
 /**
- * Write a description of class Turn here.
+ * A game of boggle is played.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
 import java.time.LocalTime;
+import java.util.Scanner;
 public class PlayBoggle
 {
     /**
-     * A round of Boggle is played
-     * @param   players     an array filled with Boggle players
+     * A game of Boggle is played
      */
     public PlayBoggle()
     {
-        Boggle board = new Boggle();
-        /*input:
-        input: Player[]
-        output: Player[].score
-        for int i = 0; i < number of Players; i++
-            LocalTime endTurn = LocalTime.minusMinutes(3);
-            while LocalTime.now != endturn
-                let players add words in an array list
-        check to see if any words are duplicates between lists, delete them from all lists
-        check to see if any words are < 3 letters, delete them
-        make scores
-        PlayerScore += scores
-        return player[]
-        */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("How many players are there?");
+        int numPlayers = sc.nextInt();  //the number of players
+        /*construct an array of players
+         * if numPlayers == 1, then the size of the array is 2
+         * The second player is an AI
+         */
+        if (numPlayers > 1)
+        {
+            Player[] players = new Player[numPlayers];
+        }
+        else
+        {
+            Player[] players = new Player[2];
+        }
+        System.out.println("How many turns do you want this to last for?");
+        int numTurns = sc.nextInt();    /*the number of turns included
+                                         * in this particular game
+                                         * since there wasn't a set number
+                                         * in any set of rules that I found
+                                         */
+        for (int i = 0; i < numTurns; i++)
+        {
+            //takes a turn
+        }
     }
 }
