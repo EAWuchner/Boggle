@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=AIPlayer
+comment1.params=name
+comment1.target=AIPlayer(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ player\ for\ the\ game\ Boggle\r\n\ @param\ \ \ name\ \ \ \ the\ name\ of\ the\ player\r\n
+comment2.params=
+comment2.target=boolean\ getAISTatus()
+numComments=3

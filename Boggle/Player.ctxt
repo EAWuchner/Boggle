@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.target=Player
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=name
 comment1.target=Player(java.lang.String)
 comment1.text=\r\n\ Creates\ a\ player\ for\ the\ game\ Boggle\r\n\ @param\ \ \ name\ \ \ \ the\ name\ of\ the\ player\r\n
@@ -13,4 +12,8 @@ comment3.text=\r\n\ Gets\ the\ player's\ score\r\n
 comment4.params=points
 comment4.target=void\ updateScore(int)
 comment4.text=\r\n\ Updates\ the\ player's\ score\r\n
-numComments=5
+comment5.params=
+comment5.target=boolean\ getAISTatus()
+comment6.params=
+comment6.target=void\ takeTurn()
+numComments=7
