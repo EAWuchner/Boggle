@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WordChecker
+comment1.params=
+comment1.target=WordChecker()
+comment2.params=word
+comment2.target=boolean\ isValid(java.lang.String)
+numComments=3
